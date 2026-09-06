@@ -1,6 +1,6 @@
-# 🔤 Remove Accents — Eliminador de acentos y tildes
+# Remove Accents — Free Online Tool
 
-**Free Accent Remover.** Strip accents, diacritics and tildes from any text instantly using Unicode normalization, with an option to keep the Spanish ñ. No sign-up, no ads, 100% client-side.
+**Remove Accents.** Remove accents from any text instantly, keeping the ñ if you want. No sign-up, no ads, 100% client-side.
 
 🌐 **Demo en vivo / Live demo:** [miguelacm.es/tools/remove-accents](https://miguelacm.es/tools/remove-accents)
 
@@ -13,13 +13,9 @@
 
 ## ✨ Features
 
-- **Normalización Unicode / Unicode normalization:** uses the browser's native NFD decomposition
-- **Conserva la ñ / Keeps the ñ:** toggle to preserve Spanish's own letter, not a real accent
-- **Tiempo real / Real-time:** result updates instantly as you type or paste
-- **Multi-idioma / Multi-language:** works with any language using Unicode diacritics
-- **Sin servidor / Zero server:** Everything runs in the browser — nothing is ever uploaded
-- **Embebible / Embeddable:** Use it as an iframe on any website
-- **Open source:** MIT license, use it freely
+- **⚡ Instant:** Strip tildes and diacritics as you type.
+- **🇪🇸 Keep the ñ:** Optionally preserve eñes while removing the rest.
+- **🔒 100% private:** Runs locally in your browser.
 
 ---
 
@@ -45,15 +41,13 @@ NEXT_PUBLIC_EMBED_URL=https://miguelacm.es/embed/remove-accents
 
 ## 📦 Embed on your website
 
-### Iframe (plug & play)
-
 ```html
 <iframe
   src="https://miguelacm.es/embed/remove-accents"
   width="100%"
   height="700"
   style="border:none;border-radius:12px;"
-  title="Eliminar Acentos y Tildes de Texto Gratis Online — miguelacm.es"
+  title="Remove Accents — miguelacm.es"
   loading="lazy"
 ></iframe>
 ```
@@ -62,11 +56,11 @@ NEXT_PUBLIC_EMBED_URL=https://miguelacm.es/embed/remove-accents
 
 ```html
 <a href="https://miguelacm.es/tools/remove-accents" target="_blank" rel="noopener">
-  Eliminador de acentos gratis por MACM
+  Remove Accents — free tool by MACM
 </a>
 ```
 
-> 💡 The link option generates a real backlink that benefits the project. Recommended if your platform supports custom HTML.
+> 💡 The link option generates a real backlink that benefits the project.
 
 ---
 
@@ -74,7 +68,7 @@ NEXT_PUBLIC_EMBED_URL=https://miguelacm.es/embed/remove-accents
 
 | Technology | Version | Purpose |
 |---|---|---|
-| [Next.js](https://nextjs.org) | 16 | React framework + SSG |
+| [Next.js](https://nextjs.org) | 16 | React framework |
 | [TypeScript](https://www.typescriptlang.org) | 5 | Type safety |
 | [Tailwind CSS](https://tailwindcss.com) | 4 | Styling |
 | [react-icons](https://react-icons.github.io/react-icons/) | 5 | Icons |
